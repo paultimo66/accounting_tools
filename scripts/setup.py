@@ -23,7 +23,7 @@ def setupMainWindow(stdscr):
     stdscr.clear()
     stdscr.box()
     stdscr.addstr(0,0,"IBSng Setup",curses.A_BOLD)
-    stdscr.addstr(stdscr.getmaxyx()[0]-1,1,"Copyright Parspooyesh co. (http://www.parspooyesh.com)")
+    stdscr.addstr(stdscr.getmaxyx()[0]-1,1,"Copyright paulsimontimo. (http://www.paulsimontimo.me)")
     stdscr.refresh()
 
 
